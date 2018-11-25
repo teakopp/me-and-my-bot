@@ -1,0 +1,19 @@
+{
+  "cards" : {
+
+    "packets" :
+    [
+      {
+        "Chair" : {}
+      },
+      {
+       "Coffee" : {}
+      },
+      {
+        "Dragon" : {},
+      },
+      {
+        "Rose" : {}
+      }
+    ]
+}
