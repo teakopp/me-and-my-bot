@@ -22,7 +22,6 @@ export default class App extends React.Component {
         ]}
         renderItem={({item}) => <Card name={item.key}></Card>}
       />
-
       </View>
     );
   }
@@ -31,16 +30,17 @@ export default class App extends React.Component {
 const style = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'white',
+    backgroundColor: 'black',
     alignItems: 'center',
     justifyContent: 'flex-start',
   },
   list: {
       paddingTop: 40,
-
       flex: 0,
       width: '100%',
       textAlign: 'center',
+      marginBottom: 50,
+      backgroundColor: 'white'
   },
   role: {
     paddingTop: 50,
